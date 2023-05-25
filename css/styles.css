@@ -346,7 +346,7 @@ button {
   border-radius: 50%;
 
   background-color: var(--primary-brand-color);
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .team-soc-link {
   display: flex;
