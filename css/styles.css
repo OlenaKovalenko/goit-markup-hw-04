@@ -355,7 +355,7 @@ button {
 }
 
 .team-soc-icon {
-  fill: #ffffff;
+  fill: var(--primary-white-color);
 }
 
 .team-soc-link:hover,
@@ -366,9 +366,15 @@ button {
 /** FOOTER */
 
 .footer {
-  background-color: var(--footer-background-color);
   padding-top: 100px;
   padding-bottom: 100px;
+
+  background-color: var(--footer-background-color);
+}
+
+.footer-container {
+  display: flex;
+  gap: 120px;
 }
 
 .logo-footer {
@@ -383,6 +389,51 @@ button {
 .footer .logotype {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-soc-text {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+
+.footer-soc-wrapper {
+  width: 208px;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--primary-brand-color);
+}
+
+.footer-soc-icon {
+  fill: var(--primary-white-color);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
 }
 
 /* *================PORTFOLIO ===============*/
