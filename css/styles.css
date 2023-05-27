@@ -363,6 +363,44 @@ button {
   background-color: var(--accent-color);
 }
 
+/** ===================SECTION CUSTOMERS===================== */
+
+.customers {
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #8e8f99;
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
 /** FOOTER */
 
 .footer {
